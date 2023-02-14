@@ -20,6 +20,11 @@
     box-shadow: 10px 10px 10px 10px #eee;
     
 }
+.box img {
+    height: 200px;
+    width: 200px;
+    
+}
 @media (max-width: 768px) {
     .card{
         display: grid;
