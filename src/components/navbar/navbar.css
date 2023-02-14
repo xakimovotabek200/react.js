@@ -31,14 +31,15 @@ nav ul li a::after {
     top: 100%;
     left: 0%;
     width: 0%;
-    height: 1px;
+    height: 1.5px;
     border-radius: 50%;
-    background-color: red;
+    background-color: grey;
 }
 
 nav ul li a:hover::after {
     width: 100%;
     transition: all .5s;
+    
 }
 
 #nemo{
