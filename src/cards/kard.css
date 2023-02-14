@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+    margin: 50px;
+}
+.box:hover{
+    box-shadow: 10px 10px 10px 10px #eee;
+    
+}
+.box img {
+    height: 200px;
+    width: 200px;
+    
+}
+@media (max-width: 768px) {
+    .card{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}

@@ -1,11 +1,11 @@
-import Footer from "./components/footer/Footer";
+import Card from "./cards/Card";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Footer />
+     <Navbar/>
+      <Card/>
     </div>
   );
 }
